@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+/* CONTEINER-ITEMS */
+#conteiner-items{
+    max-width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+.items{
+    width: 266.4px;
+    height: 450px;
+    float: left;
+}
+.items-img{
+    height: 80%;
+    padding:5px;
+}
+.items-text{
+    height: 15%;
+    padding:0px 10px 10px 10px;
+}
+.text-zone{
+    font-size: 10px;
+}
+.img-zone{
+    height: 100%;
+    position: relative;
+}
+.img-zone:hover .icon-heart{
+    color: red;
+}
+.article1:hover{
+    background:url(../img/1-hover.webp);
+    background-size: cover;
+}
+.article2:hover{
+    background:url(../img/2-hover.webp);
+    background-size: cover;
+}
+.article3:hover{
+    background:url(../img/3-hover.webp);
+    background-size: cover;
+}
+.article4:hover{
+    background:url(../img/4-hover.webp);
+    background-size: cover;
+}
+.article5:hover{
+    background:url(../img/5-hover.webp);
+    background-size: cover;
+}
+.article6:hover{
+    background:url(../img/6-hover.webp);
+    background-size: cover;
+}
+.article1{
+    background: url(../img/1.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.article2{ 
+    background: url(../img/2.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.article3{
+    background: url(../img/3.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.article4{
+    background: url(../img/4.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.article5{
+    background: url(../img/5.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.article6{
+    background: url(../img/6.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sale{
+    background-color: red;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color: white;
+    font-size: small;
+    padding: 3px;
+    border-radius:5px;
+}
+.attribute{
+    background-color: yellowgreen;
+    position: absolute;
+    bottom: 5px;   
+    left: 50px;
+    font-size: small;
+    padding: 3px;
+    border-radius:5px;
+}
+.icon-heart{
+    font-size: 30px;
+    position: absolute;
+    right: 7px;
+}
+.items3 .text-zone{
+    background-color: rgba(12, 110, 49, 0.5);
+    height: 100%;
+}
+/*  */
+
