@@ -24,6 +24,7 @@
 }
 .text-zone{
     font-size: 10px;
+    padding: 5px;
 }
 .img-zone{
     height: 100%;
@@ -119,6 +120,10 @@
 .items3 .text-zone{
     background-color: rgba(12, 110, 49, 0.5);
     height: 100%;
+    line-height: 20px;
+}
+.text-zone h2+h2, .text-zone h3{
+    display: inline-block;
 }
 /*  */
 
