@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 /* CONTEINER-ITEMS */
 #conteiner-items{
@@ -9,90 +10,35 @@
     height: 800px;
     margin: 0 auto;
 }
+#conteiner-items{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*  */
+/* conteiner-items ///items/// */
 .items{
     width: 266.4px;
     height: 450px;
     float: left;
-}
-.items-img{
-    height: 80%;
-    padding:5px;
-}
-.items-text{
-    height: 15%;
-    padding:0px 10px 10px 10px;
-}
-.text-zone{
-    font-size: 10px;
-    padding: 5px;
+    padding:5px
 }
 .img-zone{
-    height: 100%;
+    height: 80%;
     position: relative;
 }
-.img-zone:hover .icon-heart{
-    color: red;
+.text-zone{
+    height: 100%;
+    font-size: 13px;
+    padding: 5px;
+    position: relative;
 }
-.article1:hover{
-    background:url(../img/1-hover.webp);
-    background-size: cover;
+.items-text{
+    height: 20%;
+    padding:0px 10px 10px 10px;
 }
-.article2:hover{
-    background:url(../img/2-hover.webp);
-    background-size: cover;
-}
-.article3:hover{
-    background:url(../img/3-hover.webp);
-    background-size: cover;
-}
-.article4:hover{
-    background:url(../img/4-hover.webp);
-    background-size: cover;
-}
-.article5:hover{
-    background:url(../img/5-hover.webp);
-    background-size: cover;
-}
-.article6:hover{
-    background:url(../img/6-hover.webp);
-    background-size: cover;
-}
-.article1{
-    background: url(../img/1.webp);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.article2{ 
-    background: url(../img/2.webp);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.article3{
-    background: url(../img/3.webp);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.article4{
-    background: url(../img/4.webp);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.article5{
-    background: url(../img/5.webp);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.article6{
-    background: url(../img/6.webp);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+/*  */
+/*conteiner-items ///items/// IMAGE ZONE */
 .sale{
     background-color: red;
     position: absolute;
@@ -117,13 +63,91 @@
     position: absolute;
     right: 7px;
 }
+.img-zone:hover .icon-heart{
+    color: red;
+}
+/*  */
+/* conteiner-items ///items/// IMAGE ZONE/// ARTICLE1 */
+.article1:hover{
+    background:url(../img/1-hover.webp);
+    background-size: cover;
+}
+.article1{
+    background: url(../img/1.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*  */
+/*conteiner-items ///items/// IMAGE ZONE/// ARTICLE2  */
+.article2:hover{
+    background:url(../img/2-hover.webp);
+    background-size: cover;
+}
+.article2{ 
+    background: url(../img/2.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* conteiner-items ///items/// IMAGE ZONE/// ARTICLE3 */
+.article3:hover{
+    background:url(../img/3-hover.webp);
+    background-size: cover;
+}
+.article3{
+    background: url(../img/3.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .items3 .text-zone{
     background-color: rgba(12, 110, 49, 0.5);
-    height: 100%;
     line-height: 20px;
 }
-.text-zone h2+h2, .text-zone h3{
-    display: inline-block;
+/*  */
+/* conteiner-items ///items/// IMAGE ZONE/// ARTICLE4 */
+.article4:hover{
+    background:url(../img/4-hover.webp);
+    background-size: cover;
+}
+.article4{
+    background: url(../img/4.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*  */
+/* conteiner-items ///items/// IMAGE ZONE/// ARTICLE5 */
+.article5:hover{
+    background:url(../img/5-hover.webp);
+    background-size: cover;
+}
+.article5{
+    background: url(../img/5.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*  */
+/*  conteiner-items ///items/// IMAGE ZONE/// ARTICLE6 */
+.article6:hover{
+    background:url(../img/6-hover.webp);
+    background-size: cover;
+}
+.article6{
+    background: url(../img/6.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 /*  */
 
+
+.red{
+    color: red;
+}
+.text-zone>div{
+    position: absolute;
+    bottom: 0px;
+}
